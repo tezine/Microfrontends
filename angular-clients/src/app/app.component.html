@@ -1,0 +1,15 @@
+
+<!--<router-outlet></router-outlet>-->
+
+<table class="table" *ngIf="users">
+  <thead class="thead-dark">
+  <tr class="header">
+    <th>Name</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let user of users;index as i;" class="line">
+    <td>{{user}}</td>
+  </tr>
+  </tbody>
+</table>

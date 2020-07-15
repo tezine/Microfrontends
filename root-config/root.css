@@ -1,0 +1,24 @@
+
+.rootBody{
+    margin: 0;
+    max-width: 3000px !important;
+}
+
+.rootFlexContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}
+
+.rootLeftMenu{
+    width: 200px;
+    max-width: 200px;
+    min-height: 100vh
+}
+
+.rootContent{
+    align-self: stretch;
+    width: 100%;
+    background-color: gray;
+}
+
